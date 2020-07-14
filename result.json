@@ -1,0 +1,52 @@
+/**
+ * 技术信息：请求参数
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "directory": "rlsb-cxlwt-cn-fc7cb5d8",
+    "options": {
+        "url": "https://rlsb.cxlwt.cn/main.html",
+        "ipaddress": "119.23.79.151",
+        "domain": "rlsb.cxlwt.cn",
+        "request": {
+            "headers": {
+                "Accept": "text/html,*/*",
+                "Accept-language": "zh-CN,zh;q=0.9",
+                "Accept-Encoding": "gzip",
+                "Cache-control": "no-cache",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "X-Scraper-WebSite": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Sat, 11 Jul 2020 16:33:17 GMT",
+                "server": "Apache",
+                "upgrade": "h2",
+                "connection": "Upgrade, close",
+                "last-modified": "Mon, 02 Dec 2019 09:19:19 GMT",
+                "etag": "\"64d-598b51304e0c4-gzip\"",
+                "accept-ranges": "bytes",
+                "vary": "Accept-Encoding",
+                "content-encoding": "gzip",
+                "content-length": "790",
+                "content-type": "text/html"
+            }
+        }
+    },
+    "formatter": {
+        "css": false,
+        "html": false,
+        "javascript": false,
+        "save-original": true
+    },
+    "user": {
+        "isWhite": false
+    },
+    "time": {
+        "start": 1594485195868,
+        "end": 1594485199096,
+        "spend": "3.228s"
+    }
+}

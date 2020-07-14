@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>修改人脸</title>
+<meta name="author" content="DeathGhost" />
+<link rel="stylesheet" type="text/css" href="css/style.css" tppabs="css/style.css" />
+<style>
+body{height:100%;background:#16a085;overflow:hidden;}
+canvas{z-index:-1;position:absolute;}
+</style>
+
+</head>
+<body>
+<dl class="admin_login">
+ <dt>
+  <strong>修改人脸</strong>
+  <em>Modify face</em>
+ </dt>
+ <dd class="user_icon">
+  <input type="text" placeholder="账号" class="login_txtbx" id="user_name" />
+ </dd>
+ <dd class="pwd_icon">
+  <input type="password" placeholder="密码" class="login_txtbx" id="pwd" />
+ </dd>
+ <dd>
+  <input type="button" value="点击修改人脸" class="submit_btn"/>
+ </dd>
+ <dd>
+  <p>© 版权所有</p>
+ </dd>
+</dl>
+</body>
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/verificationNumbers.js" tppabs="js/verificationNumbers.js"></script>
+<script src="js/Particleground.js" tppabs="js/Particleground.js"></script>
+<script src="js/config.js" tppabs="js/config.js"></script>
+<script src="js/layer_v2.1/layer/layer.js"></script>
+<script>
+$(document).ready(function() {
+  //粒子背景特效
+  $('body').particleground({
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
+  });
+  
+  //测试提交，对接程序删除即可
+  $(".submit_btn").click(function(){
+      var userName = $("#user_name").val();
+      var pwd = $("#pwd").val();
+      if (userName == "" || pwd == "") {
+        alert("请填写账号密码！");
+        return;
+      }
+      $(location).attr("href","./login.html?type=update&role=1_104&id="+userName+"&name="+pwd);
+  });
+});
+</script>
+</html>

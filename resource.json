@@ -1,0 +1,42 @@
+/**
+ * 技术信息：资源信息
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "success": [
+        {
+            "url": "https://rlsb.cxlwt.cn/main.html",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://rlsb.cxlwt.cn/js/jquery-2.2.0.min.js",
+                    "path": "js/jquery-2.2.0.min.js",
+                    "children": []
+                },
+                {
+                    "url": "https://rlsb.cxlwt.cn/js/verificationNumbers.js",
+                    "path": "js/verificationNumbers.js",
+                    "children": []
+                },
+                {
+                    "url": "https://rlsb.cxlwt.cn/js/Particleground.js",
+                    "path": "js/Particleground.js",
+                    "children": []
+                },
+                {
+                    "url": "https://rlsb.cxlwt.cn/js/config.js",
+                    "path": "js/config.js",
+                    "children": []
+                },
+                {
+                    "url": "https://rlsb.cxlwt.cn/css/style.css",
+                    "path": "css/style.css",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "failures": [
+        "https://rlsb.cxlwt.cn/js/layer_v2.1/layer/layer.js"
+    ]
+}
